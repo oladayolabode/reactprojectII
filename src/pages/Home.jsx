@@ -5,7 +5,7 @@ const navlinks = [
   { id: 3, label: "Contact Us", link: "/contact-us" },
 ];
 
-function App() {
+const Home = () => {
   return (
     <>
       <header className="border">
@@ -27,6 +27,6 @@ function App() {
       </header>
     </>
   );
-}
+};
 
-export default App;
+export default Home;
